@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Transform an AMD bundle of named modules into one anonymous module",
   "main": "lib/index.js",
+  "bin": {
+    "amdanon": "./bin/amdanon.js"
+  },
   "dependencies": {
     "tosource": "^0.1.3",
     "js-beautify": "^1.5.5"
